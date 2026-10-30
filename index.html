@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>April Joy N. Posadas - Resume</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fce4ec;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+.resume {
+    background: white;
+    width: 850px;
+    min-height: 1100px;
+    margin: auto;
+    padding: 35px;
+    border-top: 12px solid #e91e63;
+    box-shadow: 0 5px 20px rgba(194,24,91,0.15);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #f8bbd0;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #f48fb1;
+    border-radius: 10px;
+}
+
+.header-info {
+    flex: 1;
+}
+
+#mainheading {
+    color: #c2185b;
+    font-size: 29px;
+    margin-bottom: 8px;
+}
+
+.position {
+    font-size: 22px;
+    color: #ad1457;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 14px;
+    margin: 13px 0;
+}
+
+/* COLUMNS */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.left {
+    text-align: center;
+    padding-right: 18px;
+    border-right: 3px solid #ec407a;
+}
+
+.right {
+    text-align: center;
+    padding-left: 5px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #c2185b;
+    font-size: 25px;
+    border-bottom: 2px solid #f8bbd0;
+    padding-bottom: 7px;
+    margin-top: 22px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+li::marker {
+    color: #e91e63;
+}
+
+.education-item {
+    margin-bottom: 18px;
+}
+
+.education-item h4 {
+    color: #ad1457;
+    margin-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    color: #ad1457;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.job p {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.reference {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.reference h2 {
+    text-align: center;
+}
+
+.reference p {
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    color: #c2185b;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 700px) {
+    body {
+        padding: 10px;
+    }
+
+    .resume {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        border-right: none;
+        border-bottom: 3px solid #ec407a;
+        padding-bottom: 20px;
+    }
+}
+
+/* PRINT */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .resume {
+        box-shadow: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+<!-- HEADER -->
+<div class="header">
+
+    <img src="myphoto.jpg"
+         alt="April Joy Posadas"
+         class="profile">
+
+    <div class="header-info">
+
+        <h1 id="mainheading">
+            APRIL JOY N. POSADAS
+        </h1>
+
+        <div class="position">
+            College Student
+        </div>
+
+        <div class="contact">
+            <p>☎ 09673565369</p>
+            <p>✉ posadasapriljoy9@gmail.com</p>
+            <p>📍 San Jose, Urdaneta City, Pangasinan</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="content">
+
+<!-- LEFT COLUMN -->
+<div class="left">
+
+    <h2>Career Objective</h2>
+
+    <p>
+        Motivated and responsible college student
+        seeking an opportunity to apply my
+        communication, customer service, and
+        teamwork skills while gaining valuable
+        work experience and contributing to the
+        success of the organization.
+    </p>
+
+    <h2>Education</h2>
+
+    <div class="education-item">
+        <h4>ELEMENTARY</h4>
+        <p>Urdaneta 1 Central Elementary School</p>
+        <p>(2016)</p>
+    </div>
+
+    <div class="education-item">
+        <h4>JUNIOR HIGH SCHOOL</h4>
+        <p>Urdaneta City National High School</p>
+        <p>(2020)</p>
+    </div>
+
+    <div class="education-item">
+        <h4>SENIOR HIGH SCHOOL</h4>
+        <p>Don Antonio Bongolan Memorial High School</p>
+        <p>Accountancy, Business and Management</p>
+        <p>(2023)</p>
+    </div>
+
+    <div class="education-item">
+        <h4>COLLEGE</h4>
+        <p>ABE College Urdaneta</p>
+        <p>Bachelor of Science in Business Administration</p>
+        <p>Major in Management - Present</p>
+    </div>
+
+    <h2>SKILLS</h2>
+
+    <ul>
+        <li>Communication Skills</li>
+        <li>Time Management</li>
+        <li>Teamwork</li>
+        <li>Willingness to Learn</li>
+        <li>Customer Service</li>
+        <li>Inventory Management</li>
+        <li>Cash Handling</li>
+        <li>Problem Solving</li>
+    </ul>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+<div class="right">
+
+    <h2>Work Experience</h2>
+
+    <div class="job">
+        <h3>PUREGOLD URDANETA / VILLASIS</h3>
+        <p>Merchandiser (2023)</p>
+
+        <ul>
+            <li>Communication Skills</li>
+            <li>Customer Service</li>
+            <li>Inventory Management</li>
+            <li>Product Display</li>
+            <li>Attention to Detail</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <h3>McDONALD'S(Golden Arches Development Corporation)</h3>
+        <p>Golden Arches Development Corporation</p>
+        <p>(2025–2026)</p>
+
+        <ul>
+            <li>Customer Service</li>
+            <li>Teamwork</li>
+            <li>Cash Handling</li>
+            <li>Food Preparation</li>
+            <li>Cleanliness</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <h3>RIBS AND SHRIMP</h3>
+        <p>Service Crew</p>
+
+        <ul>
+            <li>Food Service</li>
+            <li>Taking Customer Orders</li>
+            <li>Customer Assistance</li>
+            <li>Maintaining Cleanliness</li>
+        </ul>
+    </div>
+
+    <div class="reference">
+
+        <h2>Character References</h2>
+
+        <p><b>Name:</b> Samantha Nicole Cadimas</p>
+
+        <p>
+            <b>Contact No.:</b> 09666200249
+        </p>
+
+    </div>
+
+</div>
+</div>
+
+<div class="footer">
+    <p>APRIL JOY N. POSADAS | RESUME</p>
+</div>
+
+</div>
+
+</body>
+</html>
